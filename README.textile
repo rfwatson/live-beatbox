@@ -19,14 +19,22 @@ h2. Requirements
 
 h2. Keyboard shortcuts
 
-|@F1@|Record mode|
-|@F2@|Preview recorded sound|
-|@F3@|Jamming mode|
-|@Space@|Start/stop sequencer|
-|@Return@|Add hit to seq (while playing)|
-|@Backsp.@|Remove hit (while playing)|
-|@Up/Down@|Select channel|
-|@Left/Rt@|Crossfader control|
+* @F1@
+Record mode
+* @F2@
+Preview recorded sound
+* @F3@
+Jamming mode
+* @Space@
+Start/stop sequencer
+* @Return@
+Add hit to seq (while playing)
+* @Backsp.@
+Remove hit (while playing)
+* @Up/Down@
+Select channel
+* @Left/Rt@
+Crossfader control
 
 h2. TODO
 
