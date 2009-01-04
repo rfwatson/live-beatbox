@@ -1,0 +1,41 @@
+h1. "Live Beatbox":http://github.com/rfwatson/live-beatbox
+
+!http://rfwatson.github.com/images/beatbox.png!
+
+
+Experimental drum machine which uses vocalization to select synthetic drum hits which best match beat-boxed sound.
+
+Currently uses a combination of MFCC, SpectralCentroid and ZeroCrossing measurements to analyze and match the timbre of the sounds.
+
+In super-alpha-beta state! It may or may not work on your setup.
+
+h2. Requirements
+
+* "SuperCollider":http://supercollider.sourceforge.net
+
+* Some sort of external microphone and audio interface. I use an Edirol FA101 when building this. I haven't got it working well with the Mac's internal sound
+
+* OSX - unless you want to make the GUI stuff cross-platform.
+
+h2. Keyboard shortcuts
+
+| @F1@      | Record mode |
+| @F2@      | Preview recorded sound |
+| @F3@      | Jamming mode |
+| @Space@   | Start/stop sequencer |
+| @Return@  | Add hit to seq (while playing) |
+| @Backsp.@ | Remove hit (while playing) |
+| @Up/Down@ | Select channel |
+| @Left/Rt@ | Crossfader control |
+
+h2. TODO
+
+* Add analysis of amplitude envelope, only uses timbral analysis at the moment which while quite good it needs amp.env. comparison to be really intuitive
+* Add ability to scan and add samples via GUI, from any location
+* Improve doc
+* Lots more...
+
+h2. Contact me
+
+Via "Github":http://github.com/rfwatson
+
